@@ -5,11 +5,15 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const NODE_ENV = process.env.NODE_ENV || 'development';
 
 module.exports = {
+  //context: ,
   entry: {
-    main: './frontend/index.js'
+    common: './frontend/index',
+    app: './frontend/app'
   },
   output: {
-    library: 'main',
+    //path: 
+    filename: '[name].js',
+    library: '[name]'
   },
   devtool: NODE_ENV == 'development' ? 'source-map' : null,
   module: {

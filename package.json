@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/it4joy/PrettyTrash"
   },
   "bugs": {
-    "url": "https://github.com/it4joy/IndexBox/issues/1"
+    "url": "https://github.com/it4joy/PrettyTrash/issues/2"
   },
-  "homepage": "https://github.com/it4joy/IndexBox/blob/master/README.md",
+  "homepage": "https://github.com/it4joy/PrettyTrash/blob/master/README.md",
   "author": "Igor Ivanov",
   "license": "GPL-3.0",
   "dependencies": {

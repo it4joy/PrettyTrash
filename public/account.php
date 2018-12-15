@@ -1,17 +1,5 @@
-<!DOCTYPE html>
-<html lang="en" class="html">
-  <head>
-    <title>PrettyTrash</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+<?php require_once("../backend/templates/head.php"); ?>
 
-    <link rel="stylesheet" type="text/css" href="dist/common.css">
-  </head>
-
-  <body class="body">
     <div id="app" class="app-wrapper">
       <noscript>
         <p>Please, enable support of JavaScript in your browser!</p>
@@ -59,9 +47,14 @@
 
       <main class="main-content">
         <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              main promo content (as a landing)
+          <div class="data">
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="h3">Account Data</h3>
+                <div class="account-data">
+                  
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -98,6 +91,4 @@
       </footer>
     </div>
 
-    <script src="dist/common.js"></script>
-  </body>
-</html>
+<?php require_once("../backend/templates/footer.php"); ?>
